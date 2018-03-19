@@ -18,6 +18,7 @@ public class Hello {
     @GetMapping("/jenkins")
     public String sayToJenkins() {
         System.out.println("尝试提交代码到github上后，jenkins自动构建");
+        System.out.println("再次尝试提交代码到github，检测jenkins是否会自动构建");
         return "The first time to learn jenkins";
     }
 }
