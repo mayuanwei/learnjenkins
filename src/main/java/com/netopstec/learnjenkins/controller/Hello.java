@@ -11,7 +11,7 @@ public class Hello {
 
     @GetMapping("/")
     public String sayHello() {
-        System.out.println("项目已经在jenkins上部署成功，测试git push origin master");
+        System.out.println("项目已经在jenkins上部署成功，测试git push origin master000");
         return "Hello World";
     }
 
